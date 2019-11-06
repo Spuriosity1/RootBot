@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Logistics Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+  <script type="text/javascript" src="boardgen.js"></script>
+  <script type="text/javascript" src="engine.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <style type="text/css">
+
+  </style>
+</head>
+<body onload="init()">
+  <div class="headingWrapper">
+    <h1>ROOT board generator</h1>
+  </div>
+  <section>
+    <img src="img/PlayButton.png" id="PlayImg" class="hidden">
+    <img src="img/StopButton.png" id="StopImg" class="hidden">
+    <img src="img/UndoButton.png" id="UndoImg" class="hidden">
+    <img src="img/ClockIcon.png" id="ClockImg" class="hidden">
+    <img src="img/RulerIcon.png" id="RulerImg" class="hidden">
+    <img src="img/UnknownIcon.png" id="UnknownImg" class="hidden">
+    <div class="panel" style="width: 98%">
+      <canvas id="main_c" style="border: 2px solid black; "></canvas>
+      <p id="defaultPara">Please enable javascript on this webpage for the applet to work.</p>
+    </div>
+  </section>
+</body>

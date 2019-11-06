@@ -1,0 +1,71 @@
+/* stylesheet for thermodynamics applet */
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0px;
+  border: none;
+  padding: 1%;
+  background-color: #e2e6e9;
+}
+
+h1, h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #999;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+p {
+  color: #333;
+}
+
+code {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+label.field {
+  float: left;
+  width: 100px;
+  display: block;
+}
+
+label.submit {
+  padding-left: 10px;
+  float:right;
+}
+section {
+  width:90%;
+  height: 400px;
+  padding:10px;
+  margin: auto;
+}
+
+div.panel {
+  position: relative;
+  background-color: #f0f2f4;
+  border-width: 3px;
+  border-color: #803300;
+  border-style: dotted;
+  padding: 15px;
+  height: 500px;
+}
+
+div.headingWrapper {
+  width: 98%;
+  padding: inherit;
+}
+
+.error {
+  color: #cc3333;
+}
+
+span.warn {
+  color: #ee792b;
+}
+
+.hidden {
+    display: none;
+}
